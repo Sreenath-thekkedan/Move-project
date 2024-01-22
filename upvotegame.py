@@ -61,7 +61,7 @@ dapp_wallet = Wallet(0, "Dapp")
 aptos = Aptos()
  
 proposal1 = create_proposal("Proposal 1", "Participant")
-proposal2 = create_proposal("Proposal 2", "Another Participant")
+proposal2 = create_proposal("Proposal 2", "second Participant")
  
 proposal1.proposer_wallet = participant_wallet
 proposal2.proposer_wallet = participant_wallet
